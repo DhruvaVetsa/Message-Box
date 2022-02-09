@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>A Non-Hecking App</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <form method="post" action="/submit-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="enterFirstName">Enter Your First Name</label>
+        <input type="text" name="enterFirstName" placeholder="Enter Your First Name"><br>
+        <label for="enterMiddleName">Enter Your Middle Name</label>
+        <input type="text" name="enterMiddleName" placeholder="Enter Your Middle Name"><br>
+        <label for="enterLastName">Enter Your Last Name</label>
+        <input type="text" name="enterLastName" placeholder="Enter Your Last Name"><br><br>
+        <label for="myAge">Enter Your Age : </label>
+        <input type="number" name="myAge" placeholder="Enter your age"><br><br>
+        <label for="myDOB">Enter Your Date of Birth : </label>
+        <input type="date" name="myDOB" placeholder="Enter your DOB"><br>
+        <label for="dayYouWereBorn">Enter on which day you were born</label>
+        <select name="dayYouWereBorn" id="dayYouWereBorn">
+            <option>Choose a Day</option>
+            <option>Monday</option>
+            <option>Tueday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Friday</option>
+            <option>Saturday</option>
+            <option>Sunday</option>
+        </select><br><br>
+        <label>Choose Your Gender : </label>
+        <select name="genderSelect">
+          <option>Choose Your Gender</option>
+            <option>Male <i class="fa fa-mars"></i></option>
+            <option>Female <i class="fa fa-venus"></i></option>
+        </select><br><br>
+        <button type="submit">Submit</button> <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+</body>
+</html>

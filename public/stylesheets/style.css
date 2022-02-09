@@ -1,0 +1,44 @@
+* {
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+label {
+  font-size: small;
+  display: block;
+}
+input, select {
+  width: 50%;
+  display: block;
+  padding: 10px;
+}
+div {
+  border: 10px ridge gray;
+  padding: 20px;
+  width: 60%;
+}
+button {
+  color: black;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+} 
+button:active {
+  color: white;
+  background-color: royalblue;
+  border: ridge royalblue;
+}
+
+.fa-mars {
+  color: dodgerblue;
+  font-weight: 900;
+}
+
+.fa-venus {
+  color: deeppink;
+  font-weight: 900;
+}
+
+fieldset {
+  width: 50%;
+  margin: auto;
+}
